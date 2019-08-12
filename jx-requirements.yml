@@ -7,7 +7,7 @@ cluster:
   gitServer: https://github.com
   kanikoSAName: jx-aps-consumer-ko
   namespace: jx
-  project: cb-aps-poc-consumer-zm
+  project: cb-aps-poc-consumer-cc
   provider: gke
   vaultSAName: jx-aps-consumer-vt
   zone: us-east1-c
@@ -17,7 +17,7 @@ environments:
 - key: production
 gitops: true
 ingress:
-  domain: cb-aps-poc-consumer-zm.jxaas.dev
+  domain: cb-aps-poc-consumer-cc.jxaas.dev
   domainIssuerURL: https://jx-tenant-service-pr-7.infra.jrawlings.co.uk
   externalDNS: true
   namespaceSubDomain: -jx.
