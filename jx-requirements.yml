@@ -39,6 +39,6 @@ storage:
     url: ""
 terraform: true
 versionStream:
-  ref: v1.0.41
+  ref: v1.0.43
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow
