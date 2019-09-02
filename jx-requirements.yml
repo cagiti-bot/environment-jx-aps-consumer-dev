@@ -7,7 +7,7 @@ cluster:
   gitServer: https://github.com
   kanikoSAName: jx-aps-consumer-ko
   namespace: jx
-  project: cb-aps-poc-consumer-cca
+  project: cb-aps-poc-consumer-cc
   provider: gke
   vaultSAName: jx-aps-consumer-vt
   zone: us-east1-c
@@ -17,7 +17,7 @@ environments:
 - key: production
 gitops: true
 ingress:
-  domain: cb-aps-poc-consumer-cca.jxaas.io
+  domain: cb-aps-poc-consumer-cc.jxaas.io
   domainIssuerURL: https://jx-tenant-service-pr-27.jenkins-x.live
   externalDNS: true
   namespaceSubDomain: -jx.
@@ -39,6 +39,6 @@ storage:
     url: ""
 terraform: true
 versionStream:
-  ref: v1.0.39
+  ref: v1.0.41
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow
